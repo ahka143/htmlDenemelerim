@@ -1,0 +1,89 @@
+header,footer{
+   display: flex;
+   background-color: rgb(125, 177, 232);
+   padding: 30px;;
+   justify-content: space-between;
+   border: 1px solid black;
+   border-radius: 20px;
+   
+}
+footer p{
+    margin-top: 0%;
+}
+a{
+    text-decoration: none; 
+    color: black;
+    margin-right: 1cm;
+    font-size: 1.2rem;
+}
+a:hover{
+    text-decoration:underline;
+    background-color: aliceblue;
+}
+.anasayfa{
+    background-color: bisque;
+}
+.personeller{
+    background-color: aquamarine;
+}
+.oneriler{
+    background-color: cadetblue;
+}
+
+.hakkimizda{
+    background-color: rgb(229, 199, 157);
+
+}
+.anasayfa img,.oneriler img{
+    width: 50%;
+    height: 50%;
+}
+.resimler img{
+    width: 200px;
+    height: 200px;
+}
+.resimler {
+    display: flex;
+    flex-direction: column;
+}
+.hakkimizda ul li{
+    margin-bottom: 5% ;
+    padding: 2rem;
+    background-color:rgb(250, 215, 223) ;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+ h1{
+    text-align: center;
+   color: red;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.form form{
+    
+    background-color: aqua;
+   border: 1px solid black;
+   border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 18px 20px 36px 0px rgba(0,0,0,0.75);
+}
+.onay{
+    padding: 100px;
+}
+table{
+margin-bottom: 2rem;
+margin-left: auto;
+margin-right: auto;
+
+}
+table tr th,td{
+    padding: 10px;
+}
+
+
